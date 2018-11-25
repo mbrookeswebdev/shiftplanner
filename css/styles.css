@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#create_form, #update_form, #delete_form {
+    margin-top: 2%;
+}
+
+#display_all, #legend, #pagination, #create_form, #instruction3, #error-msg1,
+#error-msg2, #error-msg3, #error-msg4, #success-msg, #success-msg1, #update_status {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+#app_name {
+    margin-top: 5%;
+}
+
+#instruction {
+    margin-bottom: 1%;
+}
+
+#loginscreen {
+    margin-top: 5%;
+}
+
+#logindets {
+    border: solid lightslategray;
+    border-radius: 25px;
+}
+
+#name, #access_code {
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    padding: 7px;
+}
+
+#submit {
+    border-radius: 25px;
+    width: 100px;
+    margin-bottom: 1%;
+}
+
+#footer_date {
+    margin-top: 3%;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.material-icons.dark-blue {
+    color: darkblue;
+}
+
+.material-icons.light-blue {
+    color: #17A2B8;
+}
+
+
+
+
