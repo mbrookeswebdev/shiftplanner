@@ -1,6 +1,6 @@
 <?php
 
-class database
+class Database
 {
     //variables necessary for setting up a database connection
     private $host = "";
