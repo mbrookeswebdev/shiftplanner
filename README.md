@@ -1,4 +1,4 @@
-# Shift Planner
+### Shift Planner
 
 A CRUD application developed to manage work shifts and view pay and holidays statistics.
 
