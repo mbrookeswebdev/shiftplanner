@@ -7,9 +7,9 @@ class Category
     private $table_name = "categories";
 
 //object properties
-    public $id;
-    public $name;
-    public $holiday_entitlement;
+    private $id;
+    private $name;
+    private $holiday_entitlement;
 
     public function __construct ($db)
     {

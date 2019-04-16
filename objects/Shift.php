@@ -7,16 +7,16 @@ class Shift
     private $table_name = "shifts";
 
 //object properties
-    public $id;
-    public $date;
-    public $start_time;
-    public $end_time;
-    public $shift_length;
-    public $pay_amount;
-    public $rate;
-    public $description;
-    public $category;
-    public $nextPayAmount;
+    private $id;
+    private $date;
+    private $start_time;
+    private $end_time;
+    private $shift_length;
+    private $pay_amount;
+    private $rate;
+    private $description;
+    private $category;
+    private $nextPayAmount;
 
     public function __construct ($db)
     {

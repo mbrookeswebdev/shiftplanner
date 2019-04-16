@@ -7,9 +7,9 @@ class User
     private $table_name = "users";
 
 //object properties
-    public $id;
-    public $name;
-    public $access_code;
+    private $id;
+    private $name;
+    private $access_code;
 
     public function __construct ($db)
     {

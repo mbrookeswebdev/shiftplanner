@@ -7,9 +7,9 @@ class Payday
     private $table_name = "paydays";
 
 //object properties
-    public $id;
-    public $date;
-    public $no_of_weeks;
+    private $id;
+    private $date;
+    private $no_of_weeks;
 
     public function __construct ($db)
     {
